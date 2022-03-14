@@ -18,6 +18,8 @@ Complete each of the challenges that are presented within each of the tech talks
 
 [Repl Link](https://replit.com/@ridhimainukurti/triridhimainukurti#src/main/java/challenges/Menu.java)
 
+[Review Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/1)
+
 ### Notes
 * Tuple: key value pair 
 * dictironary: hash map 
