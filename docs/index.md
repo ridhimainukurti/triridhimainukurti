@@ -4,7 +4,7 @@
 
 | Week | Link |
 | ---  | ---  |
-| Tech Talk 1 Notes | [Project Wiki](https://github.com/mistylavender/RedTailedHawks/wiki/Project-Design-Wireframe)|
+| Tech Talk 1 Notes | [Notes](https://github.com/ridhimainukurti/triridhimainukurti/blob/gh-pages/docs/index.md#tech-talk-1)|
 | Tech Talk 2 Notes |  |
 | Tech Talk 3 Notes |  |
 | Tech Talk 4 Notes |  |
