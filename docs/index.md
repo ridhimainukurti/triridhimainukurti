@@ -6,8 +6,6 @@
 | ---  | ---  |
 | Tech Talk 1 Notes | [Notes](https://github.com/ridhimainukurti/triridhimainukurti/blob/gh-pages/docs/index.md#tech-talk-1)|
 
-## Review Ticket 
-
 ## Review Ticket
 
 | Ticket | Link |
