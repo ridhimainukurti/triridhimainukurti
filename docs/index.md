@@ -5,9 +5,14 @@
 | Week | Link |
 | ---  | ---  |
 | Tech Talk 1 Notes | [Notes](https://github.com/ridhimainukurti/triridhimainukurti/blob/gh-pages/docs/index.md#tech-talk-1)|
-| Tech Talk 2 Notes |  |
-| Tech Talk 3 Notes |  |
-| Tech Talk 4 Notes |  |
+
+## Review Ticket 
+
+## Review Ticket
+
+| Ticket | Link |
+| ---  | ---  |
+| Review Ticket 1 | [Review Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/1)|
 
 ## Test Prep Plans 
 **Goal: 5 on AP Exam**
@@ -17,8 +22,6 @@ Complete each of the challenges that are presented within each of the tech talks
 [Github Code](https://github.com/ridhimainukurti/triridhimainukurti/tree/master/src/main/java/challenges)
 
 [Repl Link](https://replit.com/@ridhimainukurti/triridhimainukurti#src/main/java/challenges/Menu.java)
-
-[Review Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/1)
 
 ### Notes
 * Tuple: key value pair 
