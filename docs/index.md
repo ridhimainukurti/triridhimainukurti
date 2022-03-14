@@ -15,6 +15,7 @@ Complete each of the challenges that are presented within each of the tech talks
 
 ## Tech Talk 1
 [Github Code](https://github.com/ridhimainukurti/triridhimainukurti/tree/master/src/main/java/challenges)
+
 [Repl Link](https://replit.com/@ridhimainukurti/triridhimainukurti#src/main/java/challenges/Menu.java)
 
 ### Notes
