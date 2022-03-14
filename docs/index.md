@@ -1,8 +1,13 @@
 # Welcome to Ridhima's Study Guide 
-```````````````````````````````````
-## Tech Talk 1 
 
-```````````````````````````````````
+## Table of Contents
+
+| Week | Link |
+| ---  | ---  |
+| Tech Talk 1 Notes | [Project Wiki](https://github.com/mistylavender/RedTailedHawks/wiki/Project-Design-Wireframe)|
+| Tech Talk 1 Notes |  |
+| Tech Talk 1 Notes |  |
+| Tech Talk 1 Notes |  |
 
 ## Important Stuff (Formatting) for Github Pages 
 ```markdown
