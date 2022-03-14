@@ -1,8 +1,8 @@
 # Welcome to Ridhima's Study Guide 
-
+```````````````````````````````````
 ## Tech Talk 1 
 
-
+```````````````````````````````````
 
 ## Important Stuff (Formatting) for Github Pages 
 ```markdown
