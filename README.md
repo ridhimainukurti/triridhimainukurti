@@ -92,6 +92,29 @@ public Queue<T> merged() {
 ```
 This was done by adding both the first and second queues accordingly according the number and order of the elements within both of the queues. So therefore it combined the queues into numerical order. 
 
+### Challenge 4 ~ LinkedLists 
+
+This is where the elements are entered according to a certain collection where they are identified as the beginning and the end and therefore each of the elements are connected through a connection. Therefore within the LinkedList there is a head and a tail within the collection. 
+
+```
+public LinkedList(T data, LinkedList<T> node) {
+    this.setData(data);
+    this.setPrevNode(node);
+    this.setNextNode(null);
+  }
+
+    /**
+     *  Clone an object,
+     *
+     * @param  node  object to clone
+     */
+  public LinkedList(LinkedList<T> node) {
+    this.setData(node.data);
+    this.setPrevNode(node.prevNode);
+    this.setNextNode(node.nextNode);
+  }
+```
+
 ### Challenge 1 ~ Menu
 
 The data collection that is needed in order to create a dynamic menu is a hash map which is what I created below. 
