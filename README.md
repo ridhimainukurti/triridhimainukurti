@@ -1,41 +1,13 @@
 # Welcome to Ridhima's Study Guide 
 
-## Table of Contents
+[Github Code](https://github.com/ridhimainukurti/triridhimainukurti/tree/master/src/main/java/challenges)
 
-| Week | Link |
-| ---  | ---  |
-| Tech Talk 1 Notes | [Notes](https://github.com/ridhimainukurti/triridhimainukurti/blob/gh-pages/docs/index.md#tech-talk-1)|
-
-## Review Ticket
-
-| Ticket | Link |
-| ---  | ---  |
-| Review Ticket 1 | [Review Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/1)|
+[Repl Link](https://replit.com/@ridhimainukurti/triridhimainukurti#src/main/java/challenges/Menu.java)
 
 ## Test Prep Plans 
 **Goal: 5 on AP Exam**
 Complete each of the challenges that are presented within each of the tech talks. Also in my spare time look over the collegeboard videos and review any units that I feel that I need to improve on. Then look over previous college board FRQ's and try to complete one to the best of my capability each weekend in order to become more comfortable with solving the free response questions in a limited amount of time (be sure to time myself). Also get a AP Computer Science A prep book and work on the questions given there in order to improve for the multiple choice questions
 
-## Tech Talk 1
-[Github Code](https://github.com/ridhimainukurti/triridhimainukurti/tree/master/src/main/java/challenges)
-
-[Repl Link](https://replit.com/@ridhimainukurti/triridhimainukurti#src/main/java/challenges/Menu.java)
-
-### Notes
-* Tuple: key value pair 
-* dictironary: hash map 
-* stacks and ques are buit of off lists where lists are type of an array (similar properties grouped) 
-* graphs and trees aren't used for the AP Exam
-* nonlinear --> hash map is a nonlinear structure 
-* focus more on the linear ones (typically enhance for loop) 
-* nonlinear --> access more directly through the key and gives the value
-* imperative vs procedural: coding language is set of statements where there is a sequence. 
-* imperative --> sequence of steps to achieve a solution (takes by step by step (sequence of events choosen by choice) ) 
-* procedural --> enhances the code (condenses the code) goes through a series of steps (decisions) 
-* OOP programming: knows the object and its key properties (solve the problem by figuring out how the object interacts with the world)
-* Imperative and OOP both have common data structures 
-* data structures that have algorithms that are within a specific style depending on data structure algorithms will be done
-* standardized simplify the code without adding too much complexity  
 
 ### Challenge 1 ~ Menu
 
@@ -146,28 +118,4 @@ public String flip() {
         return finalresult.toString();
     }
 ```
-
-## Important Stuff (Formatting) for Github Pages 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ridhimainukurti/tri3ridhimainukurti.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 
