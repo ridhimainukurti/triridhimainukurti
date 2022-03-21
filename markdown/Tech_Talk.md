@@ -2,6 +2,11 @@
 
 # Tech Talk Notes 
 
+| Week | Link |
+| ---  | ---  |
+| Tech Talk 0 Notes | [Notes]()|
+| Tech Talk 1 Notes | [Notes]()|
+
 ## Tech Talk 0 
 
 ### Notes
