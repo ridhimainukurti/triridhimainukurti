@@ -8,6 +8,110 @@
 **Goal: 5 on AP Exam**
 Complete each of the challenges that are presented within each of the tech talks. Also in my spare time look over the collegeboard videos and review any units that I feel that I need to improve on. Then look over previous college board FRQ's and try to complete one to the best of my capability each weekend in order to become more comfortable with solving the free response questions in a limited amount of time (be sure to time myself). Also get a AP Computer Science A prep book and work on the questions given there in order to improve for the multiple choice questions
 
+### Challenge 1 ~ Calculator 
+
+In order to pop the tokens from the tokenized list and calculate them I had to use the reverse polish notation and calculate the results. First I had to tokenize all the elemnts within the math expression.
+
+```java
+private void termTokenizer() {
+        // contains final list of tokens
+        this.tokens = new ArrayList<>();
+
+        int start = 0;  // term split starting index
+        StringBuilder multiCharTerm = new StringBuilder();    // term holder
+        for (int i = 0; i < this.expression.length(); i++) {
+            Character c = this.expression.charAt(i);
+            if ( isOperator(c.toString() ) || isSeperator(c.toString())  ) {
+                // 1st check for working term and add if it exists
+                if (multiCharTerm.length() > 0) {
+                    tokens.add(this.expression.substring(start, i));
+                }
+                // Add operator or parenthesis term to list
+                if (c != ' ') {
+                    tokens.add(c.toString());
+                }
+                // Get ready for next term
+                start = i + 1;
+                multiCharTerm = new StringBuilder();
+            } else {
+                // multi character terms: numbers, functions, perhaps non-supported elements
+                // Add next character to working term
+                multiCharTerm.append(c);
+            }
+
+        }
+        // Add last term
+        if (multiCharTerm.length() > 0) {
+            tokens.add(this.expression.substring(start));
+        }
+    }
+```
+
+Then I had to conver them to polish notation. Once that was completed the reverse polish notation had to be calculated and in order for the calculator to understand the PEMDAS process I had to feed through multiple if statements in order to tell the calculator that once this operator was in place it needed to take the first two tokens and perform this action. 
+
+```java
+public void reversePolishNotationToResult() {
+    //need a new stack to pop seperate the numbers and operators
+    Stack calculate = new Stack();
+
+    //need to go through each of the tokens in the reverse polish notation 
+    for (String tokens : reverse_polish) {
+      if (!isOperator(tokens)) {
+        //trying to push the number to the stack using the methods of the Operators 
+        Double num = Double.parseDouble(tokens);
+        calculate.push(num);
+      }
+
+      else {
+        // tryig to pop of the first two entries as done in the example during the tech talk 
+        Double temporary1 = (Double)calculate.pop();
+        Double temporary2 = (Double)calculate.pop();
+        Double ans = 0.0;
+
+        if (tokens.equals("^")) {
+          ans = Math.pow(temporary2, temporary1);
+        }
+        
+        if (tokens.equals("*")) {
+          ans = temporary1 * temporary2;
+        }
+        
+        if (tokens.equals("/")) {
+          ans = temporary2 / temporary1; 
+        }
+
+        if (tokens.equals("%")) {
+          ans = temporary2 % temporary1;
+        }
+        
+        if (tokens.equals("+")) {
+          ans = temporary2 + temporary1;
+        }
+        
+        if (tokens.equals("-")) {
+          ans = temporary2 - temporary1;
+        }
+
+        calculate.push(ans);
+      }
+    }
+
+    result = (Double)calculate.pop();
+    
+  }
+```
+
+Then I had just used to the toString method to print out the results and make sure that everything was properly calculting the math expressions and printing out the correct result 
+
+```java
+ublic String toString() {
+    return ("Original expression: " + this.expression + "\n" +
+            "Tokenized expression: " + this.tokens.toString() + "\n" +
+            "Reverse Polish Notation: " +this.reverse_polish.toString() + "\n" +
+            "Final result: " + String.format("%.2f", this.result));
+  }
+```
+
 ### Challenge 1 ~ Queue
 
 Add elements into the queue and depending on the method written which in this case was our add and delete method, we can delete from the head of the connection or from the tail of the connection. 
