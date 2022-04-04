@@ -53,6 +53,16 @@ public class Sorts {
     }
 
     //created the two string to display thhe information correctly
-
+    public String toString() {
+        String format = "";
+        format += "\nSorted: ";
+        format += "Compare: " + compare;
+        format += "\nSwap: " + sort;
+        format += "\nTime: " + result;
+        for (int i = 0; i <  undone.length; i++) {
+            format += undone[i] + ", ";
+        }
+        return format;
+    }
 
 }
