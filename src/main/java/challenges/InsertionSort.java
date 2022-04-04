@@ -26,5 +26,8 @@ public class InsertionSort extends Sorts {
         }
     }
     //actually running the sort method and giving a print statement to format it
-
+    public static void main(String[] args) {
+        InsertionSort insert = new InsertionSort();
+        System.out.println(insert);
+    }
 }
