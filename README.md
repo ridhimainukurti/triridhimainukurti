@@ -186,6 +186,33 @@ ublic String toString() {
   }
 ```
 
+Another one is the merge sorts where it has multiple sorts that are combined together as one and then executed in one shot which is done through a for loop traversing the array and printing out the merge sort. 
+
+```java
+public void sort(int[] a, int n) {
+    if (n < 2) {
+      return;
+    }
+    
+    int mid = n / 2;
+    int[] l = new int[mid];
+    int[] r = new int[n - mid];
+
+    for (int i = 0; i < mid; i++ ) {
+      l[i] = a[i];
+    }
+    for (int j = mid; j < n; j++ ) {
+      r[j - mid] = a[j];
+    }
+
+    sort(l, mid);
+    sort(r, n - mid);
+
+    mergeS(a, l, r, mid, n - mid);
+    
+  }
+```
+
 ### Challenge 1 ~ Queue
 
 Add elements into the queue and depending on the method written which in this case was our add and delete method, we can delete from the head of the connection or from the tail of the connection. 
