@@ -1,110 +1,58 @@
 package challenges;
 
 //hi
+import java.util.*;
+import java.time.*;
+
 public class Sorts {
-    private T data;
-    private LinkedList<T> prevNode, nextNode;
+    //created the multiple variables that were needed
+    int sort = 0;
+    int compare = 0;
+    int result;
+    int[] undone;
 
-    /**
-     *  Constructs a new element
-     *
-     * @param  data, data of object
-     * @param  node, previous node
-     */
-    public LinkedList(T data, LinkedList<T> node) {
-        this.setData(data);
-        this.setPrevNode(node);
-        this.setNextNode(null);
+    //created the sort variables that were needed in order for it to run
+    public void Sort() {
+        this.undone = getUndone();
+        Instant starts = Instant.now();
+        sort();
+        Instant stop = Instant.now();
+        Duration res = Duration.between(starts, stop);
+        result = res.getNano();
     }
 
-    /**
-     *  Clone an object,
-     *
-     * @param  node  object to clone
-     */
-    public LinkedList(LinkedList<T> node) {
-        this.setData(node.data);
-        this.setPrevNode(node.prevNode);
-        this.setNextNode(node.nextNode);
+    //innclulded the get methods for the compare, sort and time variables
+    public int getCompare() {
+        return compare;
     }
 
-    /**
-     *  Setter for T data in DoubleLinkedNode object
-     *
-     * @param  data, update data of object
-     */
-    public void setData(T data) {
-        this.data = data;
+    public int getSort() {
+        return sort;
     }
 
-    /**
-     *  Returns T data for this element
-     *
-     * @return  data associated with object
-     */
-    public T getData() {
-        return this.data;
+    public int getTime() {
+        return result;
     }
 
-    /**
-     *  Setter for prevNode in DoubleLinkedNode object
-     *
-     * @param node, prevNode to current Object
-     */
-    public void setPrevNode(LinkedList<T> node) {
-        this.prevNode = node;
-    }
-
-    /**
-     *  Setter for nextNode in DoubleLinkedNode object
-     *
-     * @param node, nextNode to current Object
-     */
-    public void setNextNode(LinkedList<T> node) {
-        this.nextNode = node;
-    }
-
-
-    /**
-     *  Returns reference to previous object in list
-     *
-     * @return  the previous object in the list
-     */
-    public LinkedList<T> getPrevious() {
-        return this.prevNode;
-    }
-
-    /**
-     *  Returns reference to next object in list
-     *
-     * @return  the next object in the list
-     */
-    public LinkedList<T> getNext() {
-        return this.nextNode;
-    }
-
-    //creates an insertion sort for the linkedlist
-    public void insertionSort () {
+    // customize sort method based on type of sort
+    public void sort() {
 
     }
 
-
-    //creates a bubble sort for the linkedlist
-    public void bubbleSort () {
-
+    //created the undone in order to get the array that the user wanted to input into the replit
+    public int[] getUndone() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter unsorted integer array (separated      by commas): ");
+        String str = sc.next();
+        String[] strArr = str.split(",");
+        int[] array = new int[strArr.length];
+        for (int i = 0; i < strArr.length; i++) {
+            array[i] = Integer.valueOf(strArr[i]);
+        }
+        return array;
     }
 
-    //creates a merge sort for the linkedlist
-    public void mergeSort () {
-
-    }
-
-    public static void main(String[] args) {
-
-    }
-
-
-
+    //created the two string to display thhe information correctly
 
 
 }
