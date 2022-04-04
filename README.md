@@ -14,7 +14,7 @@ In order to demonstrate the ability to be able to execute multiple sorts we trie
 
 With the bubble sort I focused on demonstrating how it moves onto the next item or element within the arraylist by traversing through the array and holding a tempm variable that would be used in order to move to the next element. 
 
-'''java
+```java
 public void sort() {
     int n = undone.length;
     // iterate through each possible pair in the list
@@ -31,10 +31,10 @@ public void sort() {
       }
     }
   }
-'''
+```
 Also I focused on the insertion sort where it look for the place to which the item or object should move towards and goes through a for loop process that also traverses through the array. It looks for the position to which it can be inserted and takes the element and moves it to the new locationn to where it needs to be inserted. 
 
-'''java
+```java
 public void sort() {
     int n = undone.length;
     // iterate through each element of the array as the starting comparison
@@ -54,11 +54,11 @@ public void sort() {
       compare++;
     }
   }
-'''
+```
 
 The last sort that I analyzed at was the fact that there was a selection sort which chooses the location to which the sort can be used for and then proceeds to insert that cetain element within that locaio in order to move to the next part which is then done by th for loop that again travereses through the array in order to get the element or object to that specific location. 
 
-'''java 
+```java 
 public void sort() {
     int n = undone.length;
     // iterate through each element of list as starting index
@@ -78,7 +78,7 @@ public void sort() {
       sort++;
     }
   }
-'''
+```
 
 
 
