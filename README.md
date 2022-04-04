@@ -10,6 +10,12 @@ Complete each of the challenges that are presented within each of the tech talks
 
 ### Challenge 1 ~ Sorts 
 
+Big O complexity with sorts gives to the notation to measure the upper bound performance of each of the algorithms.
+merge sort: (n log(n))
+bubble sort: (n) 
+insertion sort: (n) 
+selection sort: (n^2) 
+
 In order to demonstrate the ability to be able to execute multiple sorts we tried executing it so that it portrayed the concept well. Another thing we focused on was the different sorts which were the bubble sort, insertion sort and selection sort. 
 
 With the bubble sort I focused on demonstrating how it moves onto the next item or element within the arraylist by traversing through the array and holding a tempm variable that would be used in order to move to the next element. 
