@@ -22,5 +22,10 @@ public class BubbleSort extends Sorts {
             }
         }
     }
+    //actually running the sort method and giving a print statement to format it
+    public static void main(String[] args) {
+        BubbleSort bubble = new BubbleSort();
+        System.out.println(bubble);
 
+    }
 }
