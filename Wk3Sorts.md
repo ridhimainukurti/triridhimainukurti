@@ -1,9 +1,10 @@
+### Important Links
+
+* [Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk3)
+     * Under src.TechTalk3
+* [Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/4)
+
 ### Challenge 1 ~ Sorts 
-
-[Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk3)
-- Under src.TechTalk3
-
-[Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/4)
 
 Big O complexity with sorts gives to the notation to measure the upper bound performance of each of the algorithms.
 merge sort: (n log(n))
