@@ -1,5 +1,9 @@
 # Welcome to Ridhima's Study Guide 
 
+### [Commits](https://github.com/ridhimainukurti/triridhimainukurti/commits/master) + [Insight Graphs](https://github.com/ridhimainukurti/triridhimainukurti/graphs/contributors)
+### Profile: [@rachelklee](https://github.com/ridhimainukurti)
+### [Team Repository](https://github.com/)
+
 [Github Code](https://github.com/ridhimainukurti/triridhimainukurti/tree/master/src/main/java/challenges)
 
 [Repl Link](https://replit.com/@ridhimainukurti/triridhimainukurti#src/main/java/challenges/Menu.java)
