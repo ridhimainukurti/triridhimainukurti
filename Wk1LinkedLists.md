@@ -1,9 +1,9 @@
-[C1 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/Queue.java)
-[C2 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/Stack.java)
-[C3 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/Merge.java)
-[C4 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/LinkedList.java)
-
-[Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/2)
+### Important Links
+* [C1 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/Queue.java)
+* [C2 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/Stack.java)
+* [C3 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/Merge.java)
+* [C4 Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk1/LinkedList.java)
+* [Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/2)
 
 ### Challenge 1 ~ Queue
 
