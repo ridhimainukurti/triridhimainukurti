@@ -1,8 +1,8 @@
+### Important Links
+* [Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk2/Calculator.java)
+* [Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/3)
+
 ### Challenge 1 ~ Calculator 
-
-[Code](https://replit.com/@ridhimainukurti/triridhimainukurti#src/TechTalk2/Calculator.java)
-
-[Ticket](https://github.com/ridhimainukurti/triridhimainukurti/issues/3)
 
 In order to pop the tokens from the tokenized list and calculate them I had to use the reverse polish notation and calculate the results. First I had to tokenize all the elemnts within the math expression.
 
