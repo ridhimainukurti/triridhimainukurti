@@ -1,3 +1,5 @@
+{% include miniNavigation.html %}
+
 [Link to Personal Study Guide]()
 
 # **Week 1**
