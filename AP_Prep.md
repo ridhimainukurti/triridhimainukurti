@@ -12,7 +12,9 @@
 | Thursday | Going to take the FRQ 2015 version and make sure to get at least half of the questions done (goal) | 
 | Friday | Check over all the required things due at 8pm and make sure to get FRQs in the repl, have study plan (units 1 - 3), and have MCQ corrections done | 
 
-## 2015 MCQ corrections  
+## 2015 MCQ corrections 
+![image](https://user-images.githubusercontent.com/45546576/165128631-9caa239a-ad90-4d04-87cb-8ba145aebbc4.png)
+
 
 ### **Question 1**
 * Created 
