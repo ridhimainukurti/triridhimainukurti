@@ -1,4 +1,4 @@
-[Link to Personal Study Guide]()
+[Link to Personal Study Guide](https://github.com/ridhimainukurti/triridhimainukurti/wiki/AP-Personal-Study-Guide)
 
 # **Week 1**
 
